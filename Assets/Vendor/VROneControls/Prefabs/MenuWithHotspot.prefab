@@ -1,0 +1,574 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 33: {fileID: 3300000}
+  - 135: {fileID: 13500000}
+  - 23: {fileID: 2300000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: Hotspot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100002
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400002}
+  m_Layer: 0
+  m_Name: MenuWithHotspot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100004
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400004}
+  - 114: {fileID: 11400002}
+  m_Layer: 0
+  m_Name: OpenUrl
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100006
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400006}
+  - 114: {fileID: 11400004}
+  m_Layer: 0
+  m_Name: Recenter
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100008
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400008}
+  - 114: {fileID: 11400006}
+  m_Layer: 0
+  m_Name: OpenUrlTest
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100010
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400010}
+  m_Layer: 0
+  m_Name: MenuCallbacks
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100012
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400012}
+  - 114: {fileID: 11400008}
+  m_Layer: 0
+  m_Name: MainMenu
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100014
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400014}
+  m_Layer: 0
+  m_Name: MenuConditions
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.64801598, y: -2.85768366, z: 5.40995407}
+  m_LocalScale: {x: .372899979, y: .372899979, z: .372899979}
+  m_Children: []
+  m_Father: {fileID: 400002}
+  m_RootOrder: 3
+--- !u!4 &400002
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100002}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -.541983962, y: 4.35768366, z: -8.36995411}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 400012}
+  - {fileID: 400010}
+  - {fileID: 400014}
+  - {fileID: 400000}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!4 &400004
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100004}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400010}
+  m_RootOrder: 1
+--- !u!4 &400006
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100006}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400010}
+  m_RootOrder: 0
+--- !u!4 &400008
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100008}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400014}
+  m_RootOrder: 0
+--- !u!4 &400010
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100010}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -.148687959, y: .19782877, z: -.213027954}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 400006}
+  - {fileID: 400004}
+  m_Father: {fileID: 400002}
+  m_RootOrder: 1
+--- !u!4 &400012
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100012}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400002}
+  m_RootOrder: 0
+--- !u!4 &400014
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100014}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -.148687959, y: .19782877, z: -.213027954}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 400008}
+  m_Father: {fileID: 400002}
+  m_RootOrder: 2
+--- !u!23 &2300000
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_ImportantGI: 0
+  m_AutoUVMaxDistance: .5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &3300000
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 649a351e206487c44a6c996a8818e309, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  menuPrefab: {fileID: 11400008}
+  menuActiveOnStart: 1
+  selectionTime: 0
+  progressBar: {fileID: 0}
+  useSound: 0
+--- !u!114 &11400002
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100004}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5cd2a64c7f18480c92529124429d094, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &11400004
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100006}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2926e4a64aaa4453ba1e36c1fa482a86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  recenterPrefab: {fileID: 100004, guid: c43f38a64ae4d4b0183b60f476fff970, type: 2}
+--- !u!114 &11400006
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100008}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1f1334f92911438b993686c695f36a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &11400008
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100012}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da103f4e3359d454d8be89d47b1971f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rows:
+  - icons:
+    - mat: {fileID: 2100000, guid: ede1dc04392f141f5acc273f35c6e39a, type: 2}
+      subMenuPrefab: {fileID: 0}
+      isBackButton: 0
+      isCloseButton: 1
+      zOffset: 0
+      callback:
+        component: {fileID: 11400004}
+        info: []
+      condition:
+        component: {fileID: 0}
+        info: []
+      name: 726563656e746572
+      tooltip:
+      - 43656e746572
+      - 56696577
+      useSecondState: 0
+      secondState:
+        mat: {fileID: 0}
+        subMenuPrefab: {fileID: 0}
+        isBackButton: 0
+        isCloseButton: 0
+        zOffset: 0
+        callback:
+          component: {fileID: 0}
+          info: []
+        condition:
+          component: {fileID: 0}
+          info: []
+        name: 
+        tooltip: []
+        useSecondState: 0
+        secondState:
+          mat: {fileID: 0}
+          subMenuPrefab: {fileID: 0}
+          isBackButton: 0
+          isCloseButton: 0
+          zOffset: 0
+          callback:
+            component: {fileID: 0}
+            info: []
+          condition:
+            component: {fileID: 0}
+            info: []
+          name: 
+          tooltip: []
+          useSecondState: 0
+          secondState:
+            mat: {fileID: 0}
+            subMenuPrefab: {fileID: 0}
+            isBackButton: 0
+            isCloseButton: 0
+            zOffset: 0
+            callback:
+              component: {fileID: 0}
+              info: []
+            condition:
+              component: {fileID: 0}
+              info: []
+            name: 
+            tooltip: []
+            useSecondState: 0
+            secondState:
+              mat: {fileID: 0}
+              subMenuPrefab: {fileID: 0}
+              isBackButton: 0
+              isCloseButton: 0
+              zOffset: 0
+              callback:
+                component: {fileID: 0}
+                info: []
+              condition:
+                component: {fileID: 0}
+                info: []
+              name: 
+              tooltip: []
+              useSecondState: 0
+              secondState:
+                mat: {fileID: 0}
+                subMenuPrefab: {fileID: 0}
+                isBackButton: 0
+                isCloseButton: 0
+                zOffset: 0
+                callback: {}
+                condition: {}
+                name: 
+                tooltip: []
+                useSecondState: 0
+                secondState:
+                  isBackButton: 0
+                  isCloseButton: 0
+                  zOffset: 0
+                  name: 
+                  useSecondState: 0
+                  showInIOS: 0
+                  showInAndroid: 0
+                showInIOS: 0
+                showInAndroid: 0
+              showInIOS: 0
+              showInAndroid: 0
+            showInIOS: 0
+            showInAndroid: 0
+          showInIOS: 0
+          showInAndroid: 0
+        showInIOS: 0
+        showInAndroid: 0
+      showInIOS: 1
+      showInAndroid: 1
+    - mat: {fileID: 2100000, guid: 70a7cb95870324db980e844621ba47cc, type: 2}
+      subMenuPrefab: {fileID: 0}
+      isBackButton: 0
+      isCloseButton: 1
+      zOffset: 0
+      callback:
+        component: {fileID: 11400002}
+        info: []
+      condition:
+        component: {fileID: 11400006}
+        info: []
+      name: 6c61756e63686572
+      tooltip:
+      - 4d65646961
+      - 4c61756e63686572
+      useSecondState: 0
+      secondState:
+        mat: {fileID: 0}
+        subMenuPrefab: {fileID: 0}
+        isBackButton: 0
+        isCloseButton: 0
+        zOffset: 0
+        callback:
+          component: {fileID: 0}
+          info: []
+        condition:
+          component: {fileID: 0}
+          info: []
+        name: 
+        tooltip: []
+        useSecondState: 0
+        secondState:
+          mat: {fileID: 0}
+          subMenuPrefab: {fileID: 0}
+          isBackButton: 0
+          isCloseButton: 0
+          zOffset: 0
+          callback:
+            component: {fileID: 0}
+            info: []
+          condition:
+            component: {fileID: 0}
+            info: []
+          name: 
+          tooltip: []
+          useSecondState: 0
+          secondState:
+            mat: {fileID: 0}
+            subMenuPrefab: {fileID: 0}
+            isBackButton: 0
+            isCloseButton: 0
+            zOffset: 0
+            callback:
+              component: {fileID: 0}
+              info: []
+            condition:
+              component: {fileID: 0}
+              info: []
+            name: 
+            tooltip: []
+            useSecondState: 0
+            secondState:
+              mat: {fileID: 0}
+              subMenuPrefab: {fileID: 0}
+              isBackButton: 0
+              isCloseButton: 0
+              zOffset: 0
+              callback:
+                component: {fileID: 0}
+                info: []
+              condition:
+                component: {fileID: 0}
+                info: []
+              name: 
+              tooltip: []
+              useSecondState: 0
+              secondState:
+                mat: {fileID: 0}
+                subMenuPrefab: {fileID: 0}
+                isBackButton: 0
+                isCloseButton: 0
+                zOffset: 0
+                callback: {}
+                condition: {}
+                name: 
+                tooltip: []
+                useSecondState: 0
+                secondState:
+                  isBackButton: 0
+                  isCloseButton: 0
+                  zOffset: 0
+                  name: 
+                  useSecondState: 0
+                  showInIOS: 0
+                  showInAndroid: 0
+                showInIOS: 0
+                showInAndroid: 0
+              showInIOS: 0
+              showInAndroid: 0
+            showInIOS: 0
+            showInAndroid: 0
+          showInIOS: 0
+          showInAndroid: 0
+        showInIOS: 0
+        showInAndroid: 0
+      showInIOS: 1
+      showInAndroid: 1
+  distance: 2
+  iconRotation: 20
+  iconSize: .300000012
+  iconMargin: .0500000007
+  menuOffset: {x: 0, y: -.5, z: 0}
+  menuLayout: 1
+  soundEffects:
+    useSound: 1
+    hover: {fileID: 0}
+    select: {fileID: 0}
+--- !u!135 &13500000
+SphereCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: .5
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100002}
+  m_IsPrefabParent: 1
