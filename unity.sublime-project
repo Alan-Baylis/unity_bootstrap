@@ -1,0 +1,26 @@
+{
+	"folders":
+	[
+		{
+			"path": "Assets/Scripts"
+		},
+		{
+			"name": "Unit Tests",
+			"path": "Assets/Editor/UnitTests"
+		},
+		{
+			"folder_exclude_patterns":
+			[
+				"UnitTests"
+			],
+			"path": "Assets/Editor"
+		},
+		{
+			"path": "Assets/Shaders"
+		},
+		{
+			"name": "Full Project",
+			"path": "."
+		}
+	]
+}
